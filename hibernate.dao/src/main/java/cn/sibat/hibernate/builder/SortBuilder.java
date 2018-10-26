@@ -8,9 +8,8 @@ import org.springframework.data.domain.Sort.Direction;
 public class SortBuilder {
 	Sort sort;
 	
-	public SortBuilder() {//111
-		System.out.println("1111sss");
-		System.out.println("kg");
+	public SortBuilder() {
+		
 	}
 	
 	public SortBuilder(Direction direction, List<String> properties) {
